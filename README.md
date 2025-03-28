@@ -33,5 +33,5 @@ First, please download the CIFAR10 and put into `cifar-10-batches-py-official`.
 <br/>Second, run He et al.'s method and get the calibrate membership score(save in `target_data.pt`and `shadow_data.pt`) .He et al .'s code can download on [Is Difficulty Calibration All We Need? Towards More Practical Membership Inference Attacks](https://github.com/T0hsakar1n/RAPID)
 <br/>Once the above two steps are completed,you can run `attackMethodsFramework.py` to start the entire attack process.
 # Acknowledgements
-Our code is built upon the official repositories of  [SeqMIA: Sequential-Metric Based Membership Inference Attack](https://github.com/AIPAG/SeqMIA) (Li et al., ACM CCS 24) and [Is Difficulty Calibration All We Need? Towards More Practical
+Our code is built upon the official repositories of [Is Difficulty Calibration All We Need? Towards More Practical
  Membership Inference Attacks](https://github.com/T0hsakar1n/RAPID) (He et al., ACM CCS 24). We sincerely appreciate their valuable contributions to the community.
