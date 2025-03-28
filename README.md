@@ -7,13 +7,16 @@ Leveraging Multiple Metrics to Improve Difficulty Calibration in Membership Infe
 # Directory structure
 + LMTID
   + data
-    + cal_data 
+    + cal_data
+      + target_data.pt
+      + shadow_data.pt
     + cifar-10-batches-py-official
     + CIFAR10
   + model_IncludingDistillation
     + CIFAR10
       + Shadow
-      + Target    
+      + Target
+  + results 
   + attackMethodsFramework.py
   + LMTID.py
   + Metrics.py
