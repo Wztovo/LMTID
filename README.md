@@ -24,4 +24,6 @@ Leveraging Multiple Metrics to Improve Difficulty Calibration in Membership Infe
   + Models.py
   + readData.py
 + README.md
-
+# Supported Dataset and Model
+CIFAR10 CIFAR100 CINIC10 SVHN Location  VGG16 MobileNetV2 ResNet50 DenseNet121
+# Usage instructions
