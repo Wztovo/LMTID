@@ -8,14 +8,14 @@ Leveraging Multiple Metrics to Improve Difficulty Calibration in Membership Infe
 + LMTID
   + data
     + cal_data
-      + target_data.pt
-      + shadow_data.pt
+      - target_data.pt
+      - shadow_data.pt
     + cifar-10-batches-py-official
     + CIFAR10
   + model_IncludingDistillation
     + CIFAR10
-      + Shadow
-      + Target
+      - Shadow
+      - Target
   + results 
   + attackMethodsFramework.py
   + LMTID.py
