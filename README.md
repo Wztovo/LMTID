@@ -29,5 +29,6 @@ _CIFAR10 CIFAR100 CINIC10 SVHN Location<br/>VGG16 MobileNetV2 ResNet50 DenseNet1
 # Usage instructions
 First, please download the dataset and put into the correct dictoraty.
 Second, run He et al.'s method and get the calibrate membership score(save in `target_data.pt`and `shadow_data.pt`) .He et al .'s code can download on [Is Difficulty Calibration All We Need?](https://github.com/T0hsakar1n/Is-Difficulty-Calibration-All-We Need-Towards-More-Practical-Membership-Inference-Attacks)
+[这是小白的主页](https://blog.csdn.net/qq_40818172?type=lately)
 
 Then, you can run attackMethodsFramework.py to start the entire attack process.
