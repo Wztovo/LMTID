@@ -5,6 +5,13 @@ Leveraging Multiple Metrics to Improve Difficulty Calibration in Membership Infe
 - CUDA 12.1
 - python 3.9
 # Directory structure
-+LMTID
-  +
++ LMTID
+  + data
+  + attackMethodsFramework.py
+  + LMTID.py
+  + Metrics.py
+  + MetricsSequence.py
+  + Models.py
+  + readData.py
++ README.md
 
