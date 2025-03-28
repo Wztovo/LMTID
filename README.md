@@ -1,5 +1,6 @@
 # LMTID
-Leveraging Multiple Metrics to Improve Difficulty Calibration in Membership Inference Attacks 
+This official repository contains the source code and scripts for the paper "Leveraging Multiple Metrics to Improve Difficulty Calibration in Membership Inference Attacks " authored by Ning Zhou, Zetao Wang, Xiaoyan Liang, and Ruizhong Du.<br/>
+In this paper,We propose  LMTID(**L**everages **M**ultiple met-rics obtained during the model **T**raining to **I**mprove **D**ifficulty calibration), a novel framework for Membership Inference Attacks (MIAs). By incorporating knowledge distillation and constructing multi-metric sequences from different training stages, LMTID addresses the limitations of existing difficulty calibration approaches and significantly enhances the attack’s discriminative power.
 # Environment dependencies
 - pytorch 2.0.1
 - CUDA 12.1
