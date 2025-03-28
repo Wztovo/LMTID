@@ -27,3 +27,7 @@ Leveraging Multiple Metrics to Improve Difficulty Calibration in Membership Infe
 # Supported Dataset and Model
 _CIFAR10 CIFAR100 CINIC10 SVHN Location<br/>VGG16 MobileNetV2 ResNet50 DenseNet121_
 # Usage instructions
+First, please download the dataset and put into the correct dictoraty.
+Second, run He et al.'s method and get the calibrate membership score(save in `target_data.pt`and `shadow_data.pt`) .He et al .'s code can download on [Is Difficulty Calibration All We Need?](https://github.com/T0hsakar1n/Is-Difficulty-Calibration-All-We Need-Towards-More-Practical-Membership-Inference-Attacks)
+
+Then, you can run attackMethodsFramework.py to start the entire attack process.
