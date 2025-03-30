@@ -29,9 +29,11 @@ In this paper,We propose  LMTID(**L**everages **M**ultiple met-rics obtained dur
 _CIFAR10 CIFAR100 CINIC10 SVHN Location<br/>VGG16 MobileNetV2 ResNet50 DenseNet121_
 # Usage instructions
 We use VGG16 and CIFAR10 as examples to illustrate how to run_LMTID_<br/>
-First, please download the CIFAR10 and put into `cifar-10-batches-py-official`.
-<br/>Second, run He et al.'s method and get the calibrate membership score(save in `target_data.pt`and `shadow_data.pt`) .He et al .'s code can download on [Is Difficulty Calibration All We Need? Towards More Practical Membership Inference Attacks](https://github.com/T0hsakar1n/RAPID)
-<br/>Once the above two steps are completed,you can run `attackMethodsFramework.py` to start the entire attack process.
+1. First, please download the CIFAR10 and put into `cifar-10-batches-py-official`.
+2. Second, run He et al.'s method and get the calibrate membership score(save in `target_data.pt`and `shadow_data.pt`) .He et al .'s code can download on [Is Difficulty Calibration All We Need? Towards More Practical Membership Inference Attacks](https://github.com/T0hsakar1n/RAPID)
+3. when you get the `target_data.pt`and `shadow_data.pt`,please put its in data/cal_data.
+4. Once the above steps are completed,you can set the setting in `attackMethodsFramework.py` and run it to start the entire LMTID.
+5. The ruselt while save in /result
 # Acknowledgements
 Our code is built upon the official repositories of [Is Difficulty Calibration All We Need? Towards More Practical
  Membership Inference Attacks](https://github.com/T0hsakar1n/RAPID) (He et al., ACM CCS 24). We sincerely appreciate their valuable contributions to the community.
