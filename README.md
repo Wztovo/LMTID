@@ -34,7 +34,7 @@ We use VGG16 and CIFAR10 as examples to illustrate how to run_LMTID_<br/>
 3. when you get the `target_data.pt`and `shadow_data.pt`,please put its in data/cal_data.
 4. Once the above steps are completed,you can set the setting in `attackMethodsFramework.py` and run it to start the entire LMTID.
 5. The ruselt while save in /result
-6. After you get the ruselt you can use it to generate the ROC curve.(part of LMTID result are put in /image,such as ![vgg16_cifar10](./image/vgg16_cifar10.png))
+6. After you get the ruselt you can use it to generate the ROC curve.(part of LMTID result are put in /image,such as ![vgg16](./image/vgg16_combined_roc_curve.png)![DenseNet121](./image/DenseNet121_combined_roc_curve.png)
 # Acknowledgements
 Our code is built upon the official repositories of [Is Difficulty Calibration All We Need? Towards More Practical
  Membership Inference Attacks](https://github.com/T0hsakar1n/RAPID) (He et al., ACM CCS 24). We sincerely appreciate their valuable contributions to the community.
